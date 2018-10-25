@@ -12,7 +12,7 @@
   ],
   "dependencies": {
     "jsdom": "^11.3.0",
-    "xmlshim": "^0.2.1"
+    "xmlshim": "git://github.com/yunik1004/node-xmlshim.git#master"
   },
   "devDependencies": {
     "chai": "^4.1.2",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mo4islona/node-blockly"
+    "url": "https://github.com/yunik1004/node-blockly"
   },
   "author": "Eugene Formanenko <mo4islona@gmail.com>",
   "license": "ISC",

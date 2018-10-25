@@ -1,6 +1,6 @@
 # Blockly for Node.js and Browser via CommonJS module
 
-![Build](https://travis-ci.org/mo4islona/node-blockly.svg?branch=master)
+[![Build](https://travis-ci.org/yunik1004/node-blockly.svg?branch=master)](https://travis-ci.org/yunik1004/node-blockly)
 
 
 Supports `JavaScript`, `PHP`, `Dart`, `Lua` and `Python` generators.
