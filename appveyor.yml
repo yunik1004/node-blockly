@@ -9,4 +9,16 @@ platform:
   - x86
   - x64
 
+install:
+  - ps: Install-Product node $env:nodejs_version $env:platform
+  - git submodule update --init --recursive
+  - npm --version
+  - npm install -g npm@%npm_version%
+  - npm --version
+  - node --version
+  - npm install
+
+test_script:
+  - npm test
+
 build: off

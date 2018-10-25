@@ -1,6 +1,8 @@
 # Blockly for Node.js and Browser via CommonJS module
 
-[![Build](https://travis-ci.org/yunik1004/node-blockly.svg?branch=master)](https://travis-ci.org/yunik1004/node-blockly)
+[![Travis Build Status](https://travis-ci.org/yunik1004/node-blockly.svg?branch=master)](https://travis-ci.org/yunik1004/node-blockly) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/w7foh13s6hrrt7aw/branch/master?svg=true)](https://ci.appveyor.com/project/yunik1004/node-blockly/branch/master)
+
+> This is updated version of mo4islona/node-blockly. Some critical errors are fixed.
 
 
 Supports `JavaScript`, `PHP`, `Dart`, `Lua` and `Python` generators.
