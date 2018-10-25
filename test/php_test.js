@@ -26,7 +26,7 @@ function xmlToPHP(xml) {
 }
 
 describe('PHP Generator', function() {
-  it('should convert valid xml to js code', function() {
+  it('should convert valid xml to php code', function() {
     var code = xmlToPHP(ifBlockXml);
 
     assert.equal(code, res)

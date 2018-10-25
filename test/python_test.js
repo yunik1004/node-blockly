@@ -24,8 +24,8 @@ function xmlToPython(xml) {
   return Blockly.Python.workspaceToCode(workspace);
 }
 
-describe('PHP Generator', function() {
-  it('should convert valid xml to js code', function() {
+describe('Python Generator', function() {
+  it('should convert valid xml to python code', function() {
     var code = xmlToPython(ifBlockXml);
 
     assert.equal(code, res)

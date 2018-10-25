@@ -18,7 +18,7 @@ function xmlToDart(xml) {
     var xml = Blockly.Xml.textToDom(xml);
   }
   catch (e) {
-    return ''
+    return '';
   }
   
   var workspace = new Blockly.Workspace();
@@ -36,7 +36,7 @@ describe('Dart Generator', function() {
   it('should convert invalid xml to empty string', function() {
     var code = xmlToDart('<block type="math_number"><field name="NUM">42</field></block>');
     
-    assert.equal(code, 'main() {\n}')
+    assert.equal(code, '')
   });
 });
 

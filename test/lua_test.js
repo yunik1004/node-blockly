@@ -27,7 +27,7 @@ function xmlToLua(xml) {
 }
 
 describe('Lua Generator', function() {
-  it('should convert valid xml to js code', function() {
+  it('should convert valid xml to lua code', function() {
     var code = xmlToLua(ifBlockXml);
     
     assert.equal(code, res)
