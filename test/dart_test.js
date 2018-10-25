@@ -17,7 +17,7 @@ function xmlToDart(xml) {
   try {
     var xml = Blockly.Xml.textToDom(xml);
   }
-  catch (e) {s
+  catch (e) {
     return ''
   }
   
