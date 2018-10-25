@@ -11,20 +11,20 @@
     "commonjs"
   ],
   "dependencies": {
-    "jsdom": "^11.3.0",
+    "jsdom": "^12.2.0",
     "xmlshim": "git://github.com/yunik1004/node-xmlshim.git#master"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "gulp": "^3.8.11",
+    "chai": "^4.2.0",
+    "gulp": "^3.9.1",
     "gulp-insert": "^0.5.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-replace": "^0.6.1",
-    "mocha": "^4.0.1"
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "mocha": "^5.2.0"
   },
   "scripts": {
     "blockly:upgrade": "git submodule init && git submodule update --recursive --remote",
-    "prepublish": "rm -rf lib && mkdir lib && gulp build",
+    "prepare": "mkdir lib && gulp build",
     "test": "mocha test/*_test.js"
   },
   "repository": {
