@@ -30,8 +30,3 @@ build/Release
 node_modules
 
 test/browser
-
-# Should not be related with the previous build dependencies
-package-lock.json
-yarn.lock
-lib/
